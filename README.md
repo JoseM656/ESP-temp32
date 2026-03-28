@@ -13,3 +13,13 @@ Portable thermometer using an ESP32, a BMP280 sensor and a TFT display. Measures
 
 - **C** — Primary language.
 - **FreeRTOS** — Task scheduling and resource management via ESP-IDF.
+
+## Dir
+
+```
+main/
+├── main.c
+├── pins.h
+├── display.c / display.h
+└── sensor.c / sensor.h
+```
